@@ -17,10 +17,10 @@
             <nav>
                 <ul>
                     <li>
-                        <a class="boton-volver" href="/index.html"><i class="bi bi-arrow-return-left"></i> Seguir comprando</a>
+                        <a class="boton-volver booton-menu" href="/index.html"><i class="bi bi-arrow-return-left"></i> Seguir comprando</a>
                     </li>
                     <li>
-                        <a class="boton-carrito" href="/carrito.html"> <i class="bi bi-cart-fill"></i>Carrito</a>
+                        <a class="boton-carrito booton-menu" href="/carrito.html"> <i class="bi bi-cart-fill"></i>Carrito</a>
                     </li>
                 </ul>
             </nav>
@@ -33,9 +33,9 @@
              <h2 class="titulo-principal">Todos los productos</h2>
              <div class="contenedor-carrito">
                 <p class="carrito-vacio">Tu carrito está vació <i class="bi bi-emoji-frown"></i> </p>
-                <div class="carrito-productos">
+                <div class="carrito-productos disable">
 
-                    <div class="carrito-producto">
+                    <div class="carrito-producto ">
                         <img src="/img/abrigo-1.jpg" class="producto-imagen" alt="abrigo-1">
                         <div class="carrito-producto-titulo">
                             <small>Título</small>
@@ -86,10 +86,12 @@
                                 <p>Total:</p>
                                 <p id="total">$300</p>
                             </div>
+                            <button class="carrito-acciones-comprar">Comprar Ahora</button>
                         </div>
                     </div>
                     
                 </div>
+                <p class="carrito-comprado disable">Muchas gracias por tu compra <i class="bi bi-emoji-laughing"></i> </p>
              </div>
         </main>
     </div>
