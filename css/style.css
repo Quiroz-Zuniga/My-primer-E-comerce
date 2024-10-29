@@ -53,7 +53,7 @@ aside{
 .menu{
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: .5rem;
 }
 
 .bi-hand-index-fill,
@@ -65,25 +65,23 @@ aside{
     background-color: transparent;
     border: 0;
     color: var(--clr-white);
-    font-size: 1rem;
     cursor: pointer;
     align-items: center;
     display: flex;
     gap: 1rem;
+    padding: 1rem;
     font-weight: 600;
     font-size: .85rem;
-   
+    width: 100%;
 }
 
 .booton-menu.active{
     background-color: var(--clr-white);
     color: var(--clr-main);
-    width: 100%;
     padding: 1rem;
     border-top-left-radius: 1rem;
     border-bottom-left-radius: 1rem;
     position: relative;
-    
 }
 
 .booton-menu.active::before{
